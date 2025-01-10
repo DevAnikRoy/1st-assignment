@@ -1,11 +1,62 @@
-            /* Fonts style */
+/* Fonts style */
  .open-sans-normal {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
      "wdth" 100;
- }           
-
+ }
  
+/* Shared style */
 
+body{
+    background-color: #F5F5F5;
+}
+.description-color{
+    color: #565656;
+}
+.btn-primary{
+    background-color: #006A50;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #006A50;
+}
+
+/* Hero Style */
+
+.hero{
+    display: flex;
+    /* width: 1280px; */
+    background-color: #C6E4D6;
+    margin: 0px 120px 0px 120px;
+    border-radius: 24px;
+}
+.hero-div-1{
+    margin: 117px 0px 117px 60px;
+    width: 622px;
+    height: 326px;
+}
+.hero-div-1-sub-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #6A7972;
+}
+.hero-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.hero-div-2{
+    width: 474px;
+    height: 400px;
+    margin: 80px 60px 80px 64px;
+}
