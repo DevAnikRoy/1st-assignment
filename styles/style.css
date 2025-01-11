@@ -10,8 +10,13 @@
 /* Shared style */
 
 body{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
     background-color: #F5F5F5;
-    padding: 0px 120px 0px 120px;
+    padding: 0px 120px 80px 120px;
 }
 .description-color{
     color: #565656;
@@ -60,9 +65,35 @@ body{
     width: 100%;
     border: solid 1px #DBDBDB;
 }
+.Pillars-card:hover{
+    background-color: #C6E4D6;
+}
 .image{
     width: 64px;
     height: 64px;
+}
+
+/* Nav stye */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px;
+    background-color: #F5F5F5;
+
+}
+.sign-in-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    cursor: pointer;
+}
+.sign-in-btn:hover{
+    background-color: #006A50;
+    color: white;
 }
 
 /* Hero Style */
@@ -108,11 +139,23 @@ body{
 .card-1{
     background-color: #D5E1F5;
 }
+.card-1:hover{
+    background-color: white;
+    border: 1px solid #5490F5;
+}
 .card-2{
     background-color: #C6E4D6;
 }
+.card-2:hover{
+    background-color: white;
+    border: 1px solid #09A15C;
+}
 .card-3{
     background-color: #F7EBCF;
+}
+.card-3:hover{
+    background-color: white;
+    border: 1px solid #FFC239;
 }
 .card-1-btn{
     background-color: #5490F5;
@@ -128,6 +171,7 @@ body{
 .card-1-btn:hover{
     background-color: white;
     color: #5490F5;
+    border: 0.5px solid #5490F5;
 }
 .card-2-btn{
     background-color: #09A15C;
@@ -144,6 +188,7 @@ body{
 .card-2-btn:hover{
     background-color: white;
     color: #09A15C;
+    border: 0.5px solid #09A15C;
 }
 .card-3-btn{
     background-color: #FFC239;
@@ -159,6 +204,7 @@ body{
 .card-3-btn:hover{
     background-color: white;
     color: #FFC239;
+    border: 0.5px solid #FFC239;
 }
 
 /* Quote section */
@@ -183,7 +229,7 @@ body{
     font-weight: 600;
 }
 
-/* Recent news style */
+/* News style */
 
 .news-container{
     display: flex;
@@ -295,4 +341,15 @@ input[type="email"]{
 .btn-subscribe:hover{
     background-color: #F5F5F5;
     color: #006A50;
+}
+
+/* Footer section */
+
+.footer{
+    text-align: center;
+    background-color: white;
+}
+.footer-paragraph{
+    font-size: 12px;
+    color: #6A7972;
 }
