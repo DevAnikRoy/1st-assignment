@@ -148,3 +148,32 @@ body{
     background-color: white;
     color: #FFC239;
 }
+/* Recent news style */
+
+.news-container{
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 45px;
+
+}
+.news-img{
+    border-radius: 18px;
+}
+.news-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #3E3E3E;
+    margin-top: -8px;
+}
+.news-description{
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+.date-time{
+    margin-top: 12px;
+}
