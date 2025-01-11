@@ -27,7 +27,7 @@ body{
     cursor: pointer;
 }
 .btn-primary:hover{
-    background-color: white;
+    background-color: #F5F5F5;
     color: #006A50;
 }
 .title{
@@ -179,4 +179,43 @@ body{
 }
 .date-time{
     margin-top: 12px;
+}
+
+/* Donate Today section */
+
+.donate{
+    text-align: center;
+}
+.taka{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.koto-taka-diben{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    color: #3E3E3E;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.koto-taka-diben:hover{
+    background-color: #C6E4D6;
+}
+input[type="number"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 12px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    border: none;
+    text-align: center;
+}
+.donate-button{
+    margin-bottom: 80px;
 }
